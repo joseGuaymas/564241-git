@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Clonar un repo de git
 
 git clone <url-repo>
@@ -11,6 +12,15 @@ git remote muestra el alias del remoto que tengo en el repo local
 
 # muestra de forma verbosa mas info de los remotos
 git remote -v
+=======
+# Crear un repo de git
+
+git clone <url-repo>
+
+si agrego un "." al final del comando grea la carpeta git en
+la carpeta donde haya ubicado la copia del repo ajeno, puede
+llevar el nombre que yo quiera
+>>>>>>> dev
 
 # Para colaborar con otro proyecto
 
@@ -21,6 +31,7 @@ Finalmente hago un pull request
 
 # Git BRANCH ramas continuacion clase_02
 
+<<<<<<< HEAD
 git branch -d <rama_a_borrar>
 
 # FORZAR Borrado de la rama
@@ -30,3 +41,6 @@ git branch -D <rama_a_borrar>
 # Crear la rama y moverme a la rama creada
 
 git checkout -b <rama_nueva>
+=======
+git branch -d <rama_a_borrar>
+>>>>>>> dev
