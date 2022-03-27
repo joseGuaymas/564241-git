@@ -3,17 +3,19 @@
 ```sh
 git clone <url-repo>
 ```
-# REMOTOS 
+## REMOTOS 
+
+# Muestra el alias del remoto que tengo en el repo local
 
 ```sh
-git remote muestra el alias del remoto que tengo en el repo local
+git remote 
 ```
-# muestra de forma verbosa mas info de los remotos
+# Muestra de forma verbosa mas info de los remotos
 
 ```sh
 git remote -v
 ```
-# Selecionar qué agregar a los commits
+# Selecionar qué agregar a los commits (revisar comando)
 
 ```sh
 git add -p
@@ -21,13 +23,15 @@ git add -p
 
 # Para colaborar con otro proyecto
 
-```sh
-Realizar un fork de otro proyecto
-Bajo desde mi cuenta el proyecto localmente
-Hago cambio en el local, lo subo a mi repo forked
-Finalmente hago un pull request
-```
+
+1. Realizar un fork de otro proyecto
+2. Bajo desde mi cuenta el proyecto localmente
+3. Hago cambio en el local, lo subo a mi repo forked
+4. Finalmente hago un pull request
+
 # Git BRANCH ramas continuacion clase_02
+
+# Borrar rama
 
 ```sh
 git branch -d <rama_a_borrar>
@@ -43,7 +47,9 @@ git branch -D <rama_a_borrar>
 ```sh
 git checkout -b <rama_nueva>
 ```
-# MERGE actualizar, importar los cambios de otra rama 
+## MERGE 
+
+# Actualizar rama actual, importar los cambios de otra rama 
 
 ```sh
 git merge <nombre_rama>

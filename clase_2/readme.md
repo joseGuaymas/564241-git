@@ -13,7 +13,7 @@
 
 # Configurar remoto
 
-1. git remote add origin http://github/jhoseGuaymas....
+1. git remote add origin http://github/joseGuaymas....
 2. git push -u origin main
 
 # Ayuda git en local
@@ -21,10 +21,10 @@
 1. git --help commit
 2. git --help status
 
-# Para comparara los cambios con respecto al WD con respecto al repo (ultimo commit)
+# Para comparar los cambios en el WD con respecto ultimo commit del repo 
 1. git diff 
 
-# git log
+## Git log
 
 # git log resumido
 
@@ -45,21 +45,35 @@ git log --before="2021-05-01"
 git log --after="2021-05-01"
 ```
 
-# Crear rama
+## Ramas (BRANCH)
+
+# Crear rama (crea rama nombrada dev)
+
 
 ```sh
-git branch dev -- crea rama nombrada dev
-git switch dev -- se mueve a la rama dev
-git branch -- lista las ramas
+git branch dev 
+``` 
+
+# Para posicionarse en una rama (se mueve a la rama dev)
+
+```sh
+git switch dev
+○6```
+
+# Lista las ramas
+
+```sh
+git branch 
 ```
 
-# git commit amend
+# Modificar, agregar archivos no incluidos en el ultimo commit
 
 ```sh
-modifica, agrega archivos no agregados en el ultimo commit
+git commit --amend
 ```
 
-# git merge dev
+# Fusionomos dos ramas
+
 ```sh
-fusionomos dos ramas
+git merge dev
 ```
