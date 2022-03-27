@@ -27,22 +27,39 @@
 # git log
 
 # git log resumido
+
+```sh
 git log --oneline
+```
 # git log especifico (ultimas dos lineas)
+
+```sh
 git log --oneline -2
+```
 
 # Commits entre fechas
+
+```sh
 git log --since="2021-05-01"
 git log --before="2021-05-01"
 git log --after="2021-05-01"
+```
 
 # Crear rama
+
+```sh
 git branch dev -- crea rama nombrada dev
 git switch dev -- se mueve a la rama dev
 git branch -- lista las ramas
+```
 
 # git commit amend
+
+```sh
 modifica, agrega archivos no agregados en el ultimo commit
+```
 
 # git merge dev
+```sh
 fusionomos dos ramas
+```
