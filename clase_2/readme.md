@@ -6,7 +6,7 @@
 
 # Workflow
 
-1. git statua
+1. git status
 2. git add <nombre de archivo>
 3. gi commit -m "mensjae del commit"
 4. git push para subir al remoto

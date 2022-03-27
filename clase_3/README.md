@@ -3,11 +3,6 @@
 ```sh
 git clone <url-repo>
 ```
-
-si agrego un "." al final del comando crea la carpeta git en
-el directorio que yo quiera (donde haya ubicado la copia del repo ajeno) puede
-llevar el nombre que yo elija
-
 # REMOTOS 
 
 ```sh
@@ -34,7 +29,7 @@ Finalmente hago un pull request
 ```
 # Git BRANCH ramas continuacion clase_02
 
-```
+```sh
 git branch -d <rama_a_borrar>
 ```
 
