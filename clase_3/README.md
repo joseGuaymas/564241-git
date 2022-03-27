@@ -15,12 +15,19 @@ git remote
 ```sh
 git remote -v
 ```
-# Selecionar qué agregar a los commits (revisar comando)
+# 
+# GIT ADD Selecionar qué agregar a los commits (revisar comando)
+
+> Interativamente va mostrando que chunk (hunk) quiero agregar al stage
 
 ```sh
-git add -p
+git add -p # la flag -p es path
 ```
 
+> Comandos
+y: si
+n: no
+s: split
 # Para colaborar con otro proyecto
 
 
@@ -54,3 +61,4 @@ git checkout -b <rama_nueva>
 ```sh
 git merge <nombre_rama>
 ```
+
