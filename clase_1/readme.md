@@ -1,33 +1,43 @@
 # Configuracion inicial
 
-```sh 
-git status 
-```
-
-```sh
-touch para crear archivos
-```
-
-
 ```sh
 git config --global user.name "nombre"
 git config --global user.email "email" 
 ```
 
+# Estado actual de proyecto
+
+```sh 
+git status 
+```
+
+# Crear archivos en un comanndo
+
+```sh
+git touch 
+```
+
+# Confirmar estado del proyecto
 ```sh
 git commit -m "Nota de agregado o modificacion" 
 ```
 
-```sh
-git log  da un informe del commit y de quien lo ejecuto
-```
+# Informe del / de los commits detallado
 
 ```sh
-git push -u para iniciar sesion en github
+git log  
 ```
+
+# Informe de los commits resumidos en una línea
 
 ```sh
 git log --oneline
+```
+
+# Iniciar sesion en github
+
+```sh
+git push -u 
 ```
 # detalle del comit en una línea
 
