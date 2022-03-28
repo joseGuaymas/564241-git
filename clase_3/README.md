@@ -16,7 +16,7 @@ git remote
 git remote -v
 ```
 # 
-# GIT ADD Selecionar qué agregar a los commits (revisar comando)
+# GIT ADD Selecionar qué agregar a los commits 
 
 > Interativamente va mostrando que chunk (hunk) quiero agregar al stage
 
@@ -25,9 +25,9 @@ git add -p # la flag -p es path
 ```
 
 > Comandos
-y: si
-n: no
-s: split
+1. y: si
+2. n: no
+3. s: split
 # Para colaborar con otro proyecto
 
 

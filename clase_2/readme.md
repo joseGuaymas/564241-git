@@ -58,7 +58,7 @@ git branch dev
 
 ```sh
 git switch dev
-○6```
+```
 
 # Lista las ramas
 

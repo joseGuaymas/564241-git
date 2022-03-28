@@ -39,7 +39,7 @@ git log --oneline
 ```sh
 git push -u 
 ```
-#  Actualizar el remoto desde los comits generados de manera local
+#  Actualizar el remoto desde los commits generados de manera local
 
 ```sh
 git push
