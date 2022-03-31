@@ -34,3 +34,34 @@ git config --get --regexp --global alias
 ```sh
 git config --global --unset alias.set
 ```
+
+
+# Rcuperar archivos borrados
+
+```sh
+git restore .
+```
+
+```sh
+git restore <nombre-archivo>
+```
+
+## COMANDOS REMOTE
+
+# Borrar el remoto
+
+```sh
+git remote rm <nombre-remoto>
+```
+
+# Subir mas de una rama al remoto
+
+```sh
+git push origin <nombre-rama-1 nombre-rama-2 nombre-rama3>
+``` 
+
+# Listar ramas que estan en el además de listar las locales 
+
+```sh
+git branch -av
+```
