@@ -47,6 +47,11 @@ git branch -d <rama_a_borrar>
 # FORZAR Borrado de la rama
 
 ```sh
+git branch -d <rama_a_borrar> -f
+```
+
+
+```sh
 git branch -D <rama_a_borrar>
 ```
 # Crear la rama y moverme a la rama creada
@@ -61,4 +66,8 @@ git checkout -b <rama_nueva>
 ```sh
 git merge <nombre_rama>
 ```
+## Tipos de MERGE
 
+> Fast-foward (no hay ningún cambio que colisione con lo que tengo)
+> Recursiva - Uniones automáticsa (no hay colisiones de cambios)
+> Manual - Conflictos (los tengo que solucionar)
