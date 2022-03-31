@@ -2,6 +2,12 @@
 
 ## Tipos de MERGE
 
+# Abortar MERGE
+
+```sh
+git merge --abort
+```
+
 ## GIT Alias
 
 ```sh
