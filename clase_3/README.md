@@ -71,3 +71,10 @@ git merge <nombre_rama>
 > Fast-foward (no hay ningún cambio que colisione con lo que tengo)
 > Recursiva - Uniones automáticsa (no hay colisiones de cambios)
 > Manual - Conflictos (los tengo que solucionar)
+
+
+# Abortar MERGE
+
+```sh
+git merge --abort
+```

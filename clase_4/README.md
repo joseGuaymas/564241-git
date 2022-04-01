@@ -60,8 +60,32 @@ git remote rm <nombre-remoto>
 git push origin <nombre-rama-1 nombre-rama-2 nombre-rama3>
 ``` 
 
-# Listar ramas que estan en el además de listar las locales 
+# Listar ramas que estan en el remoto además de listar las locales 
 
 ```sh
 git branch -av
+```
+
+# Subir rama al remoto
+
+```sh
+git push origin <nombre-rama>
+```
+
+# Actualizar el estado del remoto en el local
+
+```sh
+git fetch --all
+```
+
+## GIT BRANCH
+# Listar ramas de forma detallada
+
+```sh
+git branch -av # -a === all | -v === verbose
+```
+# Abortar MERGE
+
+```sh
+git merge --abort
 ```
