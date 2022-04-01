@@ -89,3 +89,17 @@ git branch -av # -a === all | -v === verbose
 ```sh
 git merge --abort
 ```
+
+## GIT RESET
+
+```sh
+git reset --soft # revierte el commit y lo deja en el sstaged area
+```
+
+```sh
+git reset -- mixed
+```
+
+```sh
+git reset --hard
+```
