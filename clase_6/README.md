@@ -13,3 +13,9 @@ http://cli.github.com
 ```sh
 git rebase <nombre-origen>
 ```
+
+## REBASE INTERACTIVO
+
+```sh
+git rebase -i
+```
