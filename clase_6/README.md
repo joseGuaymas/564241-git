@@ -10,8 +10,10 @@ http://cli.github.com
 
 ## GIT REBASE
 
+Tenemos que estar parados en la rama destino de donde queremos recivir los cambios.
+
 ```sh
-git rebase <nombre-origen>
+git rebase <rama-origen>
 ```
 
 ## REBASE INTERACTIVO
